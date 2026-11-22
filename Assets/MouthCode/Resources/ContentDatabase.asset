@@ -1,0 +1,530 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b836a86c8f5a604fa6908daf6567476, type: 3}
+  m_Name: ContentDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::MouthCode.ContentDatabase
+  glyphs:
+  - sound: "\uBFCC"
+    unlockDay: 1
+    sprite: {fileID: 0}
+    shapeSeed: 1000
+  - sound: "\uB974"
+    unlockDay: 1
+    sprite: {fileID: 0}
+    shapeSeed: 8919
+  - sound: "\uB531"
+    unlockDay: 1
+    sprite: {fileID: 0}
+    shapeSeed: 16838
+  - sound: "\uAE61"
+    unlockDay: 2
+    sprite: {fileID: 0}
+    shapeSeed: 24757
+  - sound: "\uC090"
+    unlockDay: 4
+    sprite: {fileID: 0}
+    shapeSeed: 32676
+  - sound: "\uBF40"
+    unlockDay: 5
+    sprite: {fileID: 0}
+    shapeSeed: 40595
+  - sound: "\uC03C"
+    unlockDay: 7
+    sprite: {fileID: 0}
+    shapeSeed: 48514
+  - sound: "\uD401"
+    unlockDay: 7
+    sprite: {fileID: 0}
+    shapeSeed: 56433
+  - sound: "\uB0E5"
+    unlockDay: 9
+    sprite: {fileID: 0}
+    shapeSeed: 64352
+  - sound: "\uCFF5"
+    unlockDay: 9
+    sprite: {fileID: 0}
+    shapeSeed: 72271
+  - sound: "\uBFE1"
+    unlockDay: 11
+    sprite: {fileID: 0}
+    shapeSeed: 80190
+  - sound: "\uCC0D"
+    unlockDay: 11
+    sprite: {fileID: 0}
+    shapeSeed: 88109
+  - sound: "\uAF65"
+    unlockDay: 11
+    sprite: {fileID: 0}
+    shapeSeed: 96028
+  - sound: "\uB028"
+    unlockDay: 13
+    sprite: {fileID: 0}
+    shapeSeed: 103947
+  - sound: "\uB784"
+    unlockDay: 13
+    sprite: {fileID: 0}
+    shapeSeed: 111866
+  - sound: "\uCD25"
+    unlockDay: 13
+    sprite: {fileID: 0}
+    shapeSeed: 119785
+  - sound: "\uBB49"
+    unlockDay: 15
+    sprite: {fileID: 0}
+    shapeSeed: 127704
+  - sound: "\uB07C"
+    unlockDay: 15
+    sprite: {fileID: 0}
+    shapeSeed: 135623
+  - sound: "\uB625"
+    unlockDay: 15
+    sprite: {fileID: 0}
+    shapeSeed: 143542
+  - sound: "\uD718"
+    unlockDay: 15
+    sprite: {fileID: 0}
+    shapeSeed: 151461
+  - sound: "\uAFC0"
+    unlockDay: 17
+    sprite: {fileID: 0}
+    shapeSeed: 159380
+  - sound: "\uC9F9"
+    unlockDay: 17
+    sprite: {fileID: 0}
+    shapeSeed: 167299
+  - sound: "\uD478"
+    unlockDay: 17
+    sprite: {fileID: 0}
+    shapeSeed: 175218
+  - sound: "\uB369"
+    unlockDay: 17
+    sprite: {fileID: 0}
+    shapeSeed: 183137
+  - sound: "\uC005"
+    unlockDay: 19
+    sprite: {fileID: 0}
+    shapeSeed: 191056
+  - sound: "\uB871"
+    unlockDay: 19
+    sprite: {fileID: 0}
+    shapeSeed: 198975
+  words:
+  - text: "\uBFCC\uB974\uB531"
+    minDay: 1
+  - text: "\uB531\uB531"
+    minDay: 1
+  - text: "\uBFCC\uBFCC"
+    minDay: 1
+  - text: "\uB974\uB974\uB531"
+    minDay: 1
+  - text: "\uB974\uBFCC"
+    minDay: 1
+  - text: "\uBFCC\uB974"
+    minDay: 1
+  - text: "\uBFCC\uB531"
+    minDay: 1
+  - text: "\uB531\uBFCC"
+    minDay: 1
+  - text: "\uB974\uB531"
+    minDay: 1
+  - text: "\uBFCC\uBFCC\uB531"
+    minDay: 1
+  - text: "\uB531\uBFCC\uB974"
+    minDay: 1
+  - text: "\uAE61\uAE61"
+    minDay: 1
+  - text: "\uAE61\uBFCC"
+    minDay: 1
+  - text: "\uB531\uAE61"
+    minDay: 1
+  - text: "\uBFCC\uAE61"
+    minDay: 1
+  - text: "\uB974\uAE61"
+    minDay: 1
+  - text: "\uAE61\uB531"
+    minDay: 1
+  - text: "\uBFCC\uB974\uAE61"
+    minDay: 1
+  - text: "\uC090\uC090"
+    minDay: 1
+  - text: "\uBFCC\uC090"
+    minDay: 1
+  - text: "\uC090\uB531"
+    minDay: 1
+  - text: "\uC090\uBFCC\uB974"
+    minDay: 1
+  - text: "\uB974\uC090"
+    minDay: 1
+  - text: "\uC03C"
+    minDay: 1
+  - text: "\uC03C\uB974\uB531"
+    minDay: 1
+  - text: "\uC03C\uC03C"
+    minDay: 1
+  - text: "\uAE61\uC03C"
+    minDay: 1
+  - text: "\uBF40\uAF65"
+    minDay: 1
+  - text: "\uAF65\uAF65"
+    minDay: 1
+  - text: "\uBF40\uC090"
+    minDay: 1
+  - text: "\uBF40\uBF40"
+    minDay: 1
+  - text: "\uAF65\uB531"
+    minDay: 1
+  - text: "\uB974\uBF40"
+    minDay: 1
+  - text: "\uB028\uB028"
+    minDay: 1
+  - text: "\uD401\uD401"
+    minDay: 1
+  - text: "\uB028\uB974"
+    minDay: 1
+  - text: "\uD401\uB531"
+    minDay: 1
+  - text: "\uC090\uD401"
+    minDay: 1
+  - text: "\uBF40\uB028"
+    minDay: 1
+  - text: "\uBFE1\uBFE1"
+    minDay: 1
+  - text: "\uB0E5\uB0E5"
+    minDay: 1
+  - text: "\uBFE1\uBFCC\uB531"
+    minDay: 1
+  - text: "\uB0E5\uAF65"
+    minDay: 1
+  - text: "\uBFE1\uAE61"
+    minDay: 1
+  - text: "\uCFF5\uB531"
+    minDay: 1
+  - text: "\uCC0D\uCC0D"
+    minDay: 1
+  - text: "\uCFF5\uCFF5"
+    minDay: 1
+  - text: "\uCC0D\uD401"
+    minDay: 1
+  - text: "\uCFF5\uB0E5"
+    minDay: 1
+  - text: "\uB784\uB784"
+    minDay: 1
+  - text: "\uCD25\uCD25"
+    minDay: 1
+  - text: "\uB784\uBFCC"
+    minDay: 1
+  - text: "\uCD25\uB531"
+    minDay: 1
+  - text: "\uB784\uB784\uC090"
+    minDay: 1
+  - text: "\uBB49\uBB49"
+    minDay: 1
+  - text: "\uB07C\uB07C"
+    minDay: 1
+  - text: "\uBB49\uB07C"
+    minDay: 1
+  - text: "\uB07C\uB0E5"
+    minDay: 1
+  - text: "\uBB49\uBFCC"
+    minDay: 1
+  - text: "\uB625\uAF65"
+    minDay: 1
+  - text: "\uD718\uD718"
+    minDay: 1
+  - text: "\uB625\uB625"
+    minDay: 1
+  - text: "\uD718\uBF40"
+    minDay: 1
+  - text: "\uB625\uAE61"
+    minDay: 1
+  - text: "\uAFC0\uAFC0"
+    minDay: 1
+  - text: "\uC9F9\uC9F9"
+    minDay: 1
+  - text: "\uAFC0\uB531"
+    minDay: 1
+  - text: "\uC9F9\uC090"
+    minDay: 1
+  - text: "\uAFC0\uB028"
+    minDay: 1
+  - text: "\uD478\uB369"
+    minDay: 1
+  - text: "\uB369\uB369"
+    minDay: 1
+  - text: "\uD478\uB974\uB974"
+    minDay: 1
+  - text: "\uB369\uCFF5"
+    minDay: 1
+  - text: "\uC005\uC005"
+    minDay: 1
+  - text: "\uB871\uBF40"
+    minDay: 1
+  - text: "\uC005\uBF40"
+    minDay: 1
+  - text: "\uB871\uBFCC"
+    minDay: 1
+  sfx:
+  - displayName: "\uBFB0\uC639"
+    guide: "\uBFB0\uC624\uC624\uC639\u2197 \uC810\uC810 \uB192\uAC8C"
+    unlockDay: 3
+    clip: {fileID: 0}
+    tempSynth: 0
+    icon: {fileID: 0}
+    shapeSeed: 501
+    meaning: "\uC0C1\uC2B9 \uC2E0\uD638. \uC804\uC6D0 \uCC9C\uC7A5\uC744 \uBCFC \uAC83.
+      \uC774\uC720\uB294 \uC5C6\uB2E4."
+  - displayName: "\uBFCC\uC6C5"
+    guide: "\uBFCC\uC6B0\uC6B0\uC6C5\u2198 \uC810\uC810 \uB0AE\uAC8C"
+    unlockDay: 6
+    clip: {fileID: 0}
+    tempSynth: 1
+    icon: {fileID: 0}
+    shapeSeed: 502
+    meaning: "\uD558\uAC15 \uC2E0\uD638. \uC0AC\uB839\uAD00\uC774 \uACC4\uB2E8\uC744
+      \uB0B4\uB824\uC624\uB294 \uC911."
+  - displayName: "\uC090\uC090\uC090"
+    guide: "\uC090! \uC090! \uC090! \uC9E7\uAC8C \uC138 \uBC88"
+    unlockDay: 10
+    clip: {fileID: 0}
+    tempSynth: 2
+    icon: {fileID: 0}
+    shapeSeed: 503
+    meaning: "3\uB2E8\uACC4 \uACBD\uBCF4. \uD654\uC7A5\uC2E4 \uC55E\uC5D0 \uC904
+      \uC11C\uAE30 \uC2DC\uC791."
+  - displayName: "\uBD80\uB974\uB974"
+    guide: "\uBD80\uB974\uB974\uB974\uB974 \uC785\uC220\uC744 \uB5A8\uBA74\uC11C"
+    unlockDay: 14
+    clip: {fileID: 0}
+    tempSynth: 3
+    icon: {fileID: 0}
+    shapeSeed: 504
+    meaning: "\uD55C\uD30C \uACBD\uBCF4. \uB0B4\uBCF5 \uB450 \uACB9 \uCC29\uC6A9."
+  - displayName: "\uBC29\uADC0"
+    guide: "\uBFCC\uC9C0\uC9C1 \uB0AE\uACE0 \uC9C0\uC800\uBD84\uD558\uAC8C"
+    unlockDay: 18
+    clip: {fileID: 0}
+    tempSynth: 4
+    icon: {fileID: 0}
+    shapeSeed: 505
+    meaning: "(\uD574\uB3C5 \uBD88\uAC00. \uD574\uB3C5\uBCD1\uC774 \uCC3D\uBB38\uC744
+      \uC5F4\uC5C8\uB2E4)"
+  - displayName: "\uB760\uC694\uC639"
+    guide: "\uB760\uC694\uC624\uC639~ \uB5A8\uB9AC\uAC8C"
+    unlockDay: 22
+    clip: {fileID: 0}
+    tempSynth: 5
+    icon: {fileID: 0}
+    shapeSeed: 506
+    meaning: "\uC6A9\uC218\uCCA0 \uBCF4\uAE09 \uC644\uB8CC. \uC5B4\uB514\uC5D0 \uC4F0\uB294\uC9C0\uB294
+      \uBB3B\uC9C0 \uB9D0 \uAC83."
+  hq:
+    perfect:
+    - "\uBCF8\uBD80: \uC644\uBCBD\uD558\uB2E4. \uBC1B\uC544 \uC801\uB358 \uD574\uB3C5\uBCD1\uC774
+      \uAC10\uB3D9\uD574\uC11C \uC6B8\uC5C8\uB2E4."
+    - "\uBCF8\uBD80: \uC790\uB124 \uD639\uC2DC \uC774 \uC554\uD638 \uC6D0\uC5B4\uBBFC\uC778\uAC00?"
+    - "\uBCF8\uBD80: \uAE54\uB054\uD558\uB2E4. \uBC15\uC218 \uD55C \uBC88 \uCCD0
+      \uC8FC\uC9C0. \uC9DD."
+    - "\uBCF8\uBD80: \uC774 \uC815\uB3C4\uBA74 \uC801\uB3C4 \uBC1B\uC544 \uC801\uC5C8\uACA0\uAD70.
+      \uB18D\uB2F4\uC774\uB2E4."
+    good:
+    - "\uBCF8\uBD80: \uC218\uC2E0 \uC591\uD638. \uACC4\uC18D\uD574."
+    - "\uBCF8\uBD80: \uB300\uCDA9 \uC54C\uC544\uB4E4\uC5C8\uB2E4. \uB300\uCDA9."
+    - "\uBCF8\uBD80: \uC88B\uC544. \uCE68\uC774 \uC880 \uD284 \uAC83 \uAC19\uC740\uB370
+      \uB118\uC5B4\uAC00\uC9C0."
+    - "\uBCF8\uBD80: \uD1B5\uACFC. \uD600\uB294 \uC880 \uD480\uACE0 \uC640\uB77C."
+    bad:
+    - "\uBCF8\uBD80: \uBC29\uAE08 \uADF8\uAC70 \uC7AC\uCC44\uAE30\uC600\uB098?"
+    - "\uBCF8\uBD80: \uD574\uB3C5\uD574 \uBCF4\uB2C8 '\uAC10\uC790 \uC138 \uBC15\uC2A4
+      \uBCF4\uB0B4\uB77C'\uB2E4. \uC774\uAC8C \uB9DE\uB098?"
+    - "\uBCF8\uBD80: \uD574\uB3C5\uBCD1\uC774 \uC6C3\uB2E4\uAC00 \uC758\uC790\uC5D0\uC11C
+      \uB5A8\uC5B4\uC84C\uB2E4. \uB2E4\uC2DC \uD574 \uBD10."
+    - "\uBCF8\uBD80: \uC801\uB3C4 \uBABB \uC54C\uC544\uB4E3\uACA0\uAD70. \uBB38\uC81C\uB294
+      \uC6B0\uB9AC\uB3C4 \uBABB \uC54C\uC544\uB4E4\uC5C8\uB2E4\uB294 \uAC70\uB2E4."
+    timeout:
+    - "\uBCF8\uBD80: \uC751\uB2F5\uC774 \uC5C6\uB2E4. \uADF8\uC0AC\uC774 \uC801\uC774
+      \uC2E0\uD638\uB97C \uC7A1\uC558\uB2E4."
+    - "\uBCF8\uBD80: \uB108\uBB34 \uC870\uC6A9\uD574\uC11C \uC878\uC558\uB098 \uD588\uB2E4.
+      \uC801\uC740 \uC548 \uC878\uC558\uB2E4."
+    noSpeech:
+    - "\uBCF8\uBD80: \uC228\uC18C\uB9AC\uB9CC \uB4E4\uB9B0\uB2E4. \uBB34\uC12D\uB2E4."
+    - "\uBCF8\uBD80: \uBC84\uD2BC\uB9CC \uB204\uB974\uBA74 \uBB50 \uD558\uB098. \uC785\uC744
+      \uC368, \uC785\uC744."
+    - "\uBCF8\uBD80: \uB9C8\uC774\uD06C\uB294 \uC785 \uC55E\uC5D0 \uB300\uB294 \uAC70\uB2E4.
+      \uCF54 \uB9D0\uACE0."
+    dayPass:
+    - "\uBCF8\uBD80: \uC624\uB298 \uC791\uC804 \uB05D. \uD1F4\uADFC\uD574\uB77C.
+      \uB0B4\uC77C \uBCF4\uC790."
+    - "\uBCF8\uBD80: \uC218\uACE0\uD588\uB2E4. \uAC04\uC2DD\uC740 \uC5C6\uB2E4."
+    - "\uBCF8\uBD80: \uC798\uD588\uB2E4. \uBBF8\uB9AC \uB9D0\uD574 \uB450\uB294\uB370,
+      \uB0B4\uC77C \uC554\uD638\uB294 \uB354 \uAE38\uB2E4."
+    gameOver:
+    - "\uBCF8\uBD80: \uAE30\uC9C0 \uC704\uCE58\uAC00 \uD138\uB838\uB2E4. \uC790\uB124\uB294
+      \uB0B4\uC77C\uBD80\uD130 \uAC10\uC790 \uB18D\uC7A5 \uADFC\uBB34\uB2E4."
+    - "\uBCF8\uBD80: \uD1B5\uC2E0 \uB450\uC808. \uB2E4\uC74C \uD1B5\uC2E0\uBCD1 \uB4E4\uC5B4\uC640."
+    - "\uBCF8\uBD80: \uC801\uAD70\uC774 \uC6B0\uB9AC \uC554\uD638\uB97C \uB178\uB798\uBC29
+      18\uBC88\uC73C\uB85C \uC4F0\uAE30 \uC2DC\uC791\uD588\uB2E4. \uC218\uACE0\uD588\uB2E4."
+    sfxGood:
+    - "\uBCF8\uBD80: \uC18C\uB9AC \uD749\uB0B4 \uD569\uACA9. \uB2E4\uB4E4 \uC9C4\uC9DC\uC778
+      \uC904 \uC54C\uACE0 \uB3CC\uC544\uBD24\uB2E4."
+    - "\uBCF8\uBD80: \uADF8 \uC18C\uB9AC \uC5B4\uB514\uC11C \uBC30\uC6E0\uB098. \uC544\uB2C8,
+      \uC548 \uBB3C\uC5B4\uBCF4\uACA0\uB2E4."
+    sfxBad:
+    - "\uBCF8\uBD80: \uBC29\uAE08 \uBB34\uC2A8 \uC18C\uB9AC\uC600\uB098? \uC544\uB2C8,
+      \uB300\uB2F5\uD558\uC9C0 \uB9C8."
+    - "\uBCF8\uBD80: \uD6A8\uACFC\uC74C \uBD88\uC77C\uCE58. \uAE30\uC9C0 \uACE0\uC591\uC774\uAC00
+      \uB180\uB77C\uC11C \uB3C4\uB9DD\uAC14\uB2E4."
+    - "\uBCF8\uBD80: \uADF8 \uC18C\uB9AC \uB4E3\uACE0 \uC801\uAD70\uC774 \uAD6C\uAE09\uCC28\uB97C
+      \uBD88\uB800\uB2E4."
+    heardBad:
+    - "\uBCF8\uBD80: '{heard}'? \uC6B0\uB9AC \uC554\uD638\uCC45\uC5D0 \uADF8\uB7F0
+      \uB9D0\uC740 \uC5C6\uB2E4."
+    - "\uBCF8\uBD80: \uD574\uB3C5 \uACB0\uACFC '{heard}'. \uB0B4 \uACE0\uAC1C\uAC00
+      45\uB3C4\uB85C \uAEBE\uC600\uB2E4."
+    - "\uBCF8\uBD80: '{heard}'\uB77C\uB2C8. \uC810\uC2EC \uBA54\uB274\uB97C \uBCF4\uB0B8
+      \uAC74\uAC00?"
+    - "\uBCF8\uBD80: \uAE30\uB2E4\uB9B0 \uAC74 '{target}', \uB3C4\uCC29\uD55C \uAC74
+      '{heard}'."
+    heardGood:
+    - "\uBCF8\uBD80: '{heard}'\uB85C \uB4E4\uB838\uB2E4. \uBE44\uC2B7\uD558\uB2C8\uAE4C
+      \uBD10\uC900\uB2E4."
+    - "\uBCF8\uBD80: '{heard}'. \uC544\uC2AC\uC544\uC2AC\uD558\uB2E4. \uC624\uB298\uB9CC
+      \uB118\uC5B4\uAC04\uB2E4."
+    briefing:
+    - "\uBCF8\uBD80: \uC2E0\uC785, \uC798 \uC654\uB2E4. \uC554\uD638 \uC7A5\uBE44\uAC00
+      \uACE0\uC7A5 \uB098\uC11C \uC624\uB298\uBD80\uD130 \uC790\uB124 \uC785\uC774
+      \uBB34\uC804\uAE30\uB2E4."
+    - "\uBCF8\uBD80: \uC624\uB298\uB3C4 \uC801\uC774 \uC5FF\uB4E3\uACE0 \uC788\uB2E4.
+      \uB610\uBC15\uB610\uBC15, \uBE60\uB974\uAC8C."
+    - "\uBCF8\uBD80: \uC5B4\uC81C\uBCF4\uB2E4 \uAE38\uB2E4. \uD600 \uAF2C\uC774\uBA74
+      \uAE30\uC9C0\uB3C4 \uAF2C\uC778\uB2E4."
+    - "\uBCF8\uBD80: \uC554\uD638\uD45C \uC798 \uBD10 \uB46C\uB77C. \uC801\uC740
+      \uC548 \uAE30\uB2E4\uB824 \uC900\uB2E4."
+    - "\uBCF8\uBD80: \uC5B4\uC81C \uC1A1\uC2E0 \uC798 \uB4E4\uC5C8\uB2E4. \uC6C3\uC74C
+      \uCC38\uB290\uB77C \uD63C\uB0AC\uB2E4."
+    - "\uBCF8\uBD80: \uBB3C \uD55C \uC794 \uB9C8\uC2DC\uACE0 \uC2DC\uC791\uD574.
+      \uC785\uC774 \uB9C8\uB974\uBA74 \uC554\uD638\uB3C4 \uB9C8\uB978\uB2E4."
+  ranks:
+  - day: 1
+    name: "\uD6C8\uB828\uBCD1"
+  - day: 2
+    name: "\uC774\uB4F1\uBCD1"
+  - day: 3
+    name: "\uC77C\uBCD1"
+  - day: 5
+    name: "\uC0C1\uBCD1"
+  - day: 7
+    name: "\uBCD1\uC7A5"
+  - day: 10
+    name: "\uD558\uC0AC"
+  - day: 13
+    name: "\uC911\uC0AC"
+  - day: 16
+    name: "\uC0C1\uC0AC"
+  - day: 20
+    name: "\uC18C\uC704"
+  - day: 25
+    name: "\uC911\uC704"
+  - day: 30
+    name: "\uB300\uC704"
+  - day: 40
+    name: "\uC18C\uB839"
+  - day: 50
+    name: "\uC804\uC124\uC758 \uC785\uBB34\uC804\uBCD1"
+  meanings:
+    lines:
+    - "{place}\uC5D0 {item} {num}\uC0C1\uC790 \uB3C4\uCC29. \uC544\uBB34\uB3C4 \uC5F4\uC9C0
+      \uB9D0 \uAC83."
+    - "{place} {item} \uC7AC\uACE0 \uC774\uC0C1 \uC5C6\uC74C. \uBC18\uBCF5\uD55C\uB2E4,
+      \uC774\uC0C1 \uC5C6\uC74C."
+    - "{item} {num}\uAC1C \uBD84\uC2E4. \uBC94\uC778\uC740 {place} \uCABD\uC73C\uB85C
+      \uB3C4\uC8FC."
+    - "\uC624\uB298 \uBC24 {place} \uC9D1\uD569. \uC900\uBE44\uBB3C\uC740 {item}."
+    - "\uC801\uAD70\uC774 {item}\uC5D0 \uAD00\uC2EC\uC744 \uBCF4\uC778\uB2E4. \uC804\uBD80
+      \uC228\uAE38 \uAC83."
+    - "{place} \uADFC\uBB34\uC790\uC5D0\uAC8C \uC54C\uB9BC. \uB178\uB798 \uC880 \uADF8\uB9CC
+      \uBD88\uB7EC\uB77C."
+    - "{place}\uC5D0\uC11C \uC218\uC0C1\uD55C {item} \uBC1C\uACAC. \uB9DB\uC740 \uAD1C\uCC2E\uC558\uB2E4."
+    - "\uC791\uC804\uBA85 '{item}' \uAC1C\uC2DC. \uC774\uC720\uB294 \uC544\uBB34\uB3C4
+      \uBAA8\uB978\uB2E4."
+    - "{place} \uBB38 \uACE0\uC7A5. \uB2F9\uBD84\uAC04 \uCC3D\uBB38\uC73C\uB85C \uB2E4\uB2D0
+      \uAC83."
+    - "{item} \uBCF4\uAE09 \uC9C0\uC5F0. \uB300\uC2E0 {num}\uC77C\uAC04 \uAC74\uBE75\uB9CC
+      \uB098\uAC04\uB2E4."
+    - "{place} \uCCAD\uC18C \uB2F9\uBC88\uC774 \uC0AC\uB77C\uC84C\uB2E4. {item}\uB9CC
+      \uB0A8\uC544 \uC788\uC5C8\uB2E4."
+    - "{item} \uBAB0\uB798 \uBA39\uC740 \uC0AC\uB78C \uC790\uC218\uD560 \uAC83. {place}\uC5D0\uC11C
+      \uAE30\uB2E4\uB9B0\uB2E4."
+    - "\uC624\uB298 \uC800\uB141\uC740 \uCE74\uB808\uB2E4. \uBC18\uBCF5\uD55C\uB2E4,
+      \uCE74\uB808\uB2E4."
+    - "\uC801 \uC0AC\uB839\uAD00 \uC0DD\uC77C \uD655\uC778. \uCF00\uC774\uD06C\uB294
+      \uBCF4\uB0B4\uC9C0 \uB9D0 \uAC83."
+    - "\uACE0\uC591\uC774\uAC00 \uBB34\uC804\uAE30 \uC704\uC5D0\uC11C \uC794\uB2E4.
+      \uAE68\uC6B0\uC9C0 \uB9D0 \uAC83."
+    - "\uC554\uD638\uCC45 37\uCABD\uC5D0 \uCEE4\uD53C \uC3DF\uC74C. 37\uCABD\uC740
+      \uB2F9\uBD84\uAC04 \uC4F0\uC9C0 \uB9D0 \uAC83."
+    - "\uBE44\uB458\uAE30 2\uD638 \uADC0\uD658. 1\uD638\uB294 \uC544\uC9C1 \uC18C\uC2DD
+      \uC5C6\uC74C."
+    - "\uB0B4\uC77C \uC544\uCE68 \uC810\uD638 10\uBD84 \uC5F0\uAE30. \uC0AC\uB839\uAD00
+      \uB2A6\uC7A0 \uC608\uC815."
+    - "\uBCF8\uBD80 \uC640\uC774\uD30C\uC774 \uBE44\uBC00\uBC88\uD638 \uBC14\uB01C.
+      \uC544\uBB34\uB3C4 \uBAA8\uB984."
+    - "\uC815\uCC30\uBCD1 \uBCF4\uACE0. \uC801\uB3C4 \uC6B0\uB9AC\uB9CC\uD07C \uC878\uB824
+      \uBCF4\uC778\uB2E4."
+    - "\uB2E4\uC74C \uC8FC \uCCB4\uC721\uB300\uD68C. \uC904\uB2E4\uB9AC\uAE30 \uBC27\uC904
+      \uD655\uBCF4 \uBC14\uB78C."
+    - "\uC0AC\uB839\uAD00 \uCF67\uC218\uC5FC \uC815\uBE44 \uC644\uB8CC. \uC0AC\uAE30
+      \uC0C1\uC2B9."
+    - "\uC774 \uBA54\uC2DC\uC9C0\uB294 \uC544\uBB34 \uC758\uBBF8 \uC5C6\uC74C. \uADF8\uB0E5
+      \uC2EC\uC2EC\uD588\uB2E4."
+    - "\uC801 \uC554\uD638 \uD574\uB3C5 \uC131\uACF5. \uB0B4\uC6A9\uC740 '\uBC30\uACE0\uD504\uB2E4'."
+    - "\uD734\uC9C0 \uBCF4\uAE09 \uAE34\uAE09 \uC694\uCCAD. \uB9E4\uC6B0, \uB9E4\uC6B0
+      \uAE34\uAE09."
+    - "\uC5B4\uC82F\uBC24 \uB4E4\uB9B0 \uC18C\uB9AC\uB294 \uC720\uB839\uC774 \uC544\uB2C8\uB77C
+      \uBCF4\uC77C\uB7EC\uC600\uB2E4."
+    - "\uAC10\uC790\uBC2D\uC5D0 \uC218\uC0C1\uD55C \uBC1C\uC790\uAD6D. \uD1A0\uB07C\uB85C
+      \uCD94\uC815."
+    - "\uC791\uC804 \uC131\uACF5\uD558\uBA74 \uCE58\uD0A8. \uC2E4\uD328\uD558\uBA74
+      \uBC18\uC131\uBB38 3\uC7A5."
+    - "\uC801\uAD70 \uBB34\uC804\uC5D0\uC11C \uC6B0\uB9AC \uC554\uD638\uB85C \uB9CC\uB4E0
+      \uB178\uB798\uAC00 \uB4E4\uB9B0\uB2E4."
+    - "\uC801 \uD0D0\uC9C0\uB9DD \uAC15\uD654 \uC911. \uC1A1\uC2E0\uC740 \uC9E7\uACE0
+      \uC815\uD655\uD558\uAC8C."
+    - "\uBCF8\uBD80 \uC804\uC6D0 \uC774\uC0C1 \uBB34. \uC0AC\uB839\uAD00 \uAE30\uBD84\uC740
+      \uC774\uC0C1 \uC788\uC74C."
+    - "\uC0C8 \uD1B5\uC2E0\uBCD1 \uCE6D\uCC2C\uD568. \uC0AC\uB839\uAD00\uC774 \uC9C1\uC811
+      \uD55C \uB9D0 \uC544\uB2D8."
+    places:
+    - "3\uBC88 \uCC3D\uACE0"
+    - "\uCDE8\uC0AC\uC7A5"
+    - "\uBD81\uCABD \uCD08\uC18C"
+    - "\uC0AC\uB839\uAD00\uC2E4"
+    - "\uC138\uD0C1\uC2E4"
+    - "\uC5F0\uBCD1\uC7A5"
+    - "\uB9E4\uC810"
+    - "\uC758\uBB34\uC2E4"
+    - "\uC9C0\uD558 \uBC99\uCEE4"
+    - "\uBE44\uBC00 \uD1B5\uB85C"
+    - "\uC815\uBE44\uACE0"
+    - "\uC625\uC0C1 \uC548\uD14C\uB098"
+    items:
+    - "\uAC10\uC790"
+    - "\uACE0\uBB34 \uC624\uB9AC"
+    - "\uAC74\uBE75"
+    - "\uC591\uB9D0"
+    - "\uC6B0\uC0B0"
+    - "\uB77C\uBA74 \uC2A4\uD504"
+    - "\uC0AC\uB839\uAD00 \uAC00\uBC1C"
+    - "\uAD70\uD654 \uB048"
+    - "\uBE44\uC0C1 \uCD08\uCF5C\uB9BF"
+    - "\uD734\uC9C0"
+    - "\uB9DD\uC6D0\uACBD"
+    - "\uC218\uBC15"

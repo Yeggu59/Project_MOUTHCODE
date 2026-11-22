@@ -73,3 +73,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# MOUTH CODE: Whisper model weights (over GitHub 100MB limit).
+# Re-download with Unity menu: MouthCode > Download Whisper Model
+/[Aa]ssets/[Ss]treamingAssets/[Ww]hisper/*.bin
+/[Aa]ssets/[Ss]treamingAssets/[Ww]hisper/*.bin.meta

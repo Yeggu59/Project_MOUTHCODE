@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31d29ab7b404184ab664cf9dbf54b8c, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::MouthCode.GameConfig
+  passThreshold: 0.5
+  messagesStart: 3
+  messagesStep: 1
+  messagesEveryDays: 3
+  messagesMax: 6
+  lengthStart: 2
+  lengthPerDay: 0.8
+  lengthMax: 14
+  lengthJitter: 0.8
+  wordMaxGlyphs: 3
+  newGlyphBias: 0.35
+  maxGlyphsPerMessage: 16
+  timeBase: 4
+  timePerGlyph: 0.8
+  timeShrinkPerDay: 0.03
+  timeMinMultiplier: 0.6
+  sfxTimeExtra: 5
+  sfxMessageChance: 0.3
+  talkKey: 32
+  maxRecordSeconds: 10
+  preRollSeconds: 0.25
+  silenceRms: 0.012
+  minPressSeconds: 0.18
+  whisperModelPath: Whisper/ggml-base.bin
+  whisperModelUrl: https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin
+  whisperLanguage: ko
+  whisperVocabularyHint: 1
+  sfxDistanceGood: 0.4
+  sfxDistanceBad: 1
+  sfxMinAccuracy: 0.3
+  sfxLengthTolerance: 1.6
+  scorePerPercent: 10
+  scoreboardUrl: https://script.google.com/macros/s/AKfycbxoB7zd6XCadvJ4ut1OK1_jXmtWQE2OHXZzy2-gw2HyoozNtVhEv-p7KpB2lsVC7uHLqw/exec
+  failPlaybackPitch: 1.8
+  perfectThreshold: 0.95
